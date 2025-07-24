@@ -88,7 +88,7 @@ namespace GenericsDemo
 
            // 3 - fizz, 5- buzz, 3 & 5 - FizzBuz
     }
-
+    //
     public class GenericHelper<T> where T: IErrorCheck/*, new() */// they will have an empty contructor
     {
         public List<T> Items { get; set; } = new List<T>();
